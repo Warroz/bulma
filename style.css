@@ -1,0 +1,191 @@
+
+
+html{
+    background-image: url(/prairie-679014_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+
+}
+
+
+.title{
+    font-family: 'Marck Script', cursive;
+    text-align:center;
+    font-size: 43px;
+    margin-left: 5px;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.subtitle{
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    margin-right:30px;
+    font-size: x-large;
+}
+
+header {
+    padding-bottom: 30px;
+}
+
+.logo-cerf{
+    /* display: block; */
+    width :7%;
+    height: auto;
+    /* margin: 0 auto; */
+}
+
+
+.title:not(:last-child) {
+
+    margin-bottom: 0.5rem;
+}
+
+.photo1{
+    font-size:cover;
+    width:100%;
+   
+}
+
+.button-gallerie {
+    text-align: center;
+    margin-right: 25px;
+
+}
+
+img {
+    height: 30%;
+    width: 100%;
+    border-radius:10px;
+ }
+
+ /* .owl1 {
+    width: 100%;
+ } */
+
+
+ #chalut{
+    
+    background-color: #fff;
+}
+
+.button-lieu{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.block {
+    padding-bottom: 20px; 
+}
+
+.lieu{
+    height: 100%;
+    width: 100%;
+    border-radius:10px;
+}
+
+@media screen and (max-width:768px) {
+
+.button-lieu{
+   
+    display: block;
+    margin: 0 auto;
+}
+
+}
+
+
+
+.bg-form {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient( rgba(255, 128, 128,0.2), rgba(51, 255, 204,0.3) ), url(/prairie-679014_1920.jpg);
+    height: 100vh;
+}
+
+/* #seconde{
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient( rgba(255, 128, 128,0.2), rgba(51, 255, 204,0.3) ), url(/prairie-679014_1920.jpg);
+    margin-right: 23%;
+    margin-left: 16%;
+} */
+
+
+
+/* 
+.page{
+
+    background-color: #fff;
+
+} */
+
+
+
+.label{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+
+
+
+.input-lol{
+     margin-top: 10px;
+}
+
+
+.ar1{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+
+.control {
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: tablet - 768px){
+    .form {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+    
+
+.input{
+    margin-left: -5px;
+}
+
+
+
+select {
+
+    margin-left: -5px;
+}
+
+
+    .textarea {
+
+        display: block;
+        max-width: 100%;
+        min-width: 100%;
+        padding: .625em;
+        resize: vertical;
+        margin-left: -6px;}
+
+
+      
